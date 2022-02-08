@@ -1,5 +1,12 @@
-class commands {
+#ifndef COMMAND_H
+#define COMMAND_H
+#include <string>
+class Command {
 	public:
-		char* name;
-		char* arguments;
+		std::string name;
+		std::string arguments;
+		Command();
 };
+
+
+#endif // COMMAND_H
